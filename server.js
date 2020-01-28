@@ -13,6 +13,7 @@ app.use(
   })
 )
 
+//connect to db
 const mongoURI = 'mongodb://localhost:27017/mernloginreq'
 
 mongoose
