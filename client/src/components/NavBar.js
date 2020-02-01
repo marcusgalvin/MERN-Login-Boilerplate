@@ -9,19 +9,29 @@ class Landing extends Component {
   }
 
   render() {
+
+
     const loginRegLink = (
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <Link to="/login" className="nav-link">
-            Login
+
+      <div className="login-container">
+
+        <div className="navbar-nav">
+          <div className="nav-item">
+            <h2>MAG POS</h2>
+
+            <Link to="/login" className="login-button">
+              Login
           </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/register" className="nav-link">
-            Register
+          </div>
+          <br></br>
+          <div className="nav-item">
+            <Link to="/register" className="login-button">
+              Register
           </Link>
-        </li>
-      </ul>
+          </div>
+        </div>
+      </div >
+
     )
 
     const userLink = (
@@ -37,6 +47,7 @@ class Landing extends Component {
           </a>
         </li>
       </ul>
+
     )
 
     return (
@@ -60,7 +71,7 @@ class Landing extends Component {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                Home
+                refresh
               </Link>
             </li>
           </ul>

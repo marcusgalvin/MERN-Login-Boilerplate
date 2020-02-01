@@ -1,6 +1,87 @@
 import React, { Component } from 'react'
 import jwt_decode from 'jwt-decode'
 
+
+const products = [
+  {
+    id: 1,
+    name: "Apple",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 2,
+    name: "pear",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 3,
+    name: "orange",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 4,
+    name: "banana",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 5,
+    name: "grape",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 6,
+    name: "blueberry",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 7,
+    name: "raspberry",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 8,
+    name: "tangerine",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 9,
+    name: "grapefruit",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 10,
+    name: "mango",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 11,
+    name: "Kiwi",
+    desc: "text",
+    price: 100
+  },
+  {
+    id: 12,
+    name: "POM",
+    desc: "text",
+    price: 100
+  },
+];
+
+
+
+
+
+
 class Profile extends Component {
   constructor() {
     super()
