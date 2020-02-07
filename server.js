@@ -3,7 +3,7 @@ var cors = require('cors')
 var bodyParser = require('body-parser')
 var app = express()
 var mongoose = require("mongoose")
-var port = process.env.PORT || 5000
+var port = process.env.PORT || 3000
 
 app.use(bodyParser.json())
 app.use(cors())
@@ -13,7 +13,7 @@ app.use(
   })
 )
 
-//connect to db
+//connect to data base
 const mongoURI = 'mongodb://localhost:27017/mernloginreq'
 
 mongoose
